@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+  <title>Food Website</title>
+  </head>
+  <body bgcolor="skyblue" text="black">
+    <form>
+      <style>
+        h1{
+            text-align:          center;
+            background-color:   gold;
+        }
+      </style>
+      <style>
+        h2{
+          background-color:  greenyellow;
+        }
+      </style>
+
+    <h1><I>YUMMY CHICKEN BIRYANI</I></h1>
+    <h2><marquee>DIWALI OFFER BUY ONE GET ONE OFFER CLOSES SOON</marquee></h2>
+
+    <img src="https://tse2.mm.bing.net/th?id=OIP.f9Ng-73ZMEfbfjNPAT-YSAHaFj&pid=Api&P=0" height="300" width="600">
+
+      <fieldset>
+      <legend>Personal Information</legend>
+
+      <label>First Name</label>
+      <input type="text" id="first_name" value="first_name"> 
+
+      <label>Second Name</label>
+      <input type="text" id="Second_name" value="Second_name"> <br><br>
+
+      <label>Mobile Number</label>
+      <input type="number" name="mobile" value="xxxxxx"> 
+
+      <label>Adress</label>
+      <textarea area col="100" row="1" name="adress"></textarea> <br><br>
+
+      </fieldset><br>
+
+      <fieldset>
+
+        <legend>Select Type Of Biryani</legend>
+        <input type="radio" name="BIRYANI" value="1">DUM BIRYANI
+        <input type="radio" name="BIRYANI" value="2">FRY BIRYANI
+        <input type="radio" name="BIRYANI" value="3">WINGS BIRYANI
+        <input type="radio" name="BIRYANI" value="4">TIKKA BIRYANI
+        
+      </fieldset><br>
+    
+      <fieldset>
+
+        <legend>Select The Quantity</legend>
+        <input type="radio" name="PACK" value="2">COUPLE PACK
+        <input type="radio" name="PACK" value="3">FAMILY PACK
+        <input type="radio" name="PACK" value="4">JUMBO PACK
+        
+      </fieldset><br>
+
+      <fieldset>
+
+        <legend>Select The Drink</legend>
+        <input type="checkbox" name="DRINK" value="2">THUMS UP
+        <input type="checkbox" name="DRINK" value="3">SPRITE
+        <input type="checkbox" name="DRINK" value="4">PEPSI
+        <input type="checkbox" name="DRINK" value="4">LIMCA
+        <input type="checkbox" name="DRINK" value="4">COKE
+
+      </fieldset><br>
+
+      <fieldset>
+
+        <legend>Special Instructions</legend>
+        <textarea name="Instruction" rows="3" cols="42"></textarea>
+
+     </fieldset><br>
+
+     <select  name="Payment">
+
+      <option>Payment option</option>
+      <option value="1">Easy pay</option>
+      <option value="2">Debit/Credit card</option>
+      <option value="3">UPI</option>
+      <option value="4">Paytm</option>
+      <option value="5">COD</option>
+
+      </select><br><br>
+
+     <input type="submit"  value="Place Your Order">
+
+
+
+    </form>
+  </body>
+</html>
